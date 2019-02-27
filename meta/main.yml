@@ -1,0 +1,28 @@
+---
+# zerodowntime.virtualenv/meta/main.yml
+
+dependencies:
+  - role: zerodowntime.python_pip
+    tags:
+      - virtualenv
+
+
+galaxy_info:
+  role_name: virtualenv
+  author: ZeroDowntime
+  description: Ansible role to install python virtualenv
+  company: ZeroDowntime Sp. z o.o.
+  license: Apache License 2.0
+  min_ansible_version: 2.5
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+  galaxy_tags:
+    - system
+    - python
+    - virtualenv

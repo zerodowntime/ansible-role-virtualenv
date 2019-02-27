@@ -1,0 +1,9 @@
+---
+# zerodowntime.virtualenv/tasks/main.yml
+
+- name: Install virtualanv
+  pip:
+    name: virtualenv
+    state: present
+  tags:
+    - virtualenv

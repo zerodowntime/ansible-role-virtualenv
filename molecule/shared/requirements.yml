@@ -1,0 +1,7 @@
+---
+
+- role: zerodowntime.python_pip
+  src: zerodowntime.python_pip
+
+- name: zerodowntime.epel_repo
+  src: zerodowntime.epel_repo
